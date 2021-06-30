@@ -49,6 +49,7 @@ if(score > highscore){
       document.querySelector('.score').textContent = score;
     } else {
       document.querySelector('.message').textContent = 'an xose';
+      document.querySelector('body').style.backgroundColor = '#FF0000'; 
       score--; // score = score - 1;
       document.querySelector('.score').textContent = 0;
     }
