@@ -69,7 +69,7 @@ if(score > highscore){
 document.querySelector('.again').addEventListener('click', function(){
   score = 5;
   secretNumber = Math.trunc(Math.random() * 20) + 1;
-  document.querySelector('.message').textContent = 'sangen joppe ....';
+  document.querySelector('.message').textContent = 'Guess starting ....';
   document.querySelector('.score').textContent = score;
   document.querySelector('.guess').value = '';
   document.querySelector('body').style.backgroundColor = '#222';
